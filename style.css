@@ -1,0 +1,15 @@
+h1{
+    color: blue
+}
+    h1 {
+        color: blue;
+    }
+    p {
+        color: #e0150e;
+        font-size: 18px;
+    
+    }
+    a {
+        color:#ff9900;
+        text-decoration: none;
+    }
