@@ -1,14 +1,117 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Introduccion al Desarrollo Frontend</title>
+        <title>Rodrigo Diaz Perfil</title>
         <link rel="stylesheet" href="style.css">
         
         
     </head>
-    <body> 
-        <h1>¡Bienvenido al curso de Desarrollo Frontend</h1>
-        <p> Esta es una pagina de ejemplo creada con HTML</p>
-        <a href= "https//www.google.com">Visita el Sitio Web de Google</a>
+     
+        <header>
+            <h1>Bienvenidos a mi perfil</h1>
+        <nav>
+            <ul>
+                <li><a href="#acerca-de-mi">Acerca de mi</a> </li>
+                <li><a href="#educacion">Educacion</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Mis Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#formulario">Contáctame</a></li>
+                
+            </ul>
+        </nav>
+        </header>
+        <section id="acerca-de-mi">
+            <h2> Acerca de mi</h2>
+            <p> Mi nombre es Rodrigo Díaz, me dicen cuarte.
+                Tengo 26 años, soy Ingeniero Agronomo y en 2023 decidi involucrarme en el mundo IT, realice cursos de Data Analytics, Python, Metodologias Agiles y Tester QA Manual, actualmente me estoy capacitando en la programacion Web con la UTN.
+                En cuanto a mi perfil laboral, me encanta el trabajo en equipo, el buen ambiente de trabajo, me considero una persona responsable, proactiva, autodidacta, capacidad de multitarea, como desventaja puedo ser un poco ansioso en cuanto a los resultados.
+                Tengo un interes grande en seguir capacitandome y empezar a trabajar en este nuevo mundo a su vez acompañar este aprendizaje con clases de ingles.</p>
+            <img src="Carnet.jpg" alt="Tu foto aquí" width="200"/>
+        </section>
+        <section id="educacion"> 
+            <h2>Educacion </h2>
+            <ul> 
+                <li>Ingeniero Agronomo </li>
+                <li>Data Analytics </li>
+                <li>Metodologias Agiles</li>
+                <li>Python </li>
+                <li>QA tester manual </li>
+            </ul>
+        <section id="habilidades"> 
+                <h2>Habilidades </h2>
+                <ul> 
+                    <li>HTML </li>
+                    <li>CSS </li>
+                    <li>JavaScript</li>
+                    <li>Python </li>
+                    <li>Postman </li>
+                    <li>Selenium</li>
+                    <li>Jmeter</li>
+                    <li>Trello</li>
+                    <li>Json</li>
+                </ul>
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Proyecto</th>
+                        <th>Fecha</th>
+                        <th>Lenguajes Utilizados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Proyecto 1</td>
+                        <td>Enero 2023</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Proyecto 2</td>
+                        <td>Marzo 2023</td>
+                        <td>Python, Django</td>
+                    </tr>
+                    <tr>
+                        <td>Proyecto 3</td>
+                        <td>Mayo 2023</td>
+                        <td>Java, Spring Boot</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contacto"> 
+                    <h2> Contacto </h2>
+                    <address>
+                        Correo electrónico: <a href="rodrigodb9610@gmail.com">rodrigodb9610@gmail.com</a>
+                        Telefono: <a href="+54 3472556111">+54 3472556111</a>                         
+                    </address>
+        </section>
+        <section id="formulario">
+            <h2>Contáctame</h2>
+            <form action="procesar_formulario.php" method="post">
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required><br><br>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        
+
+        <footer>
+            Copyright (c) 2023. Todos los derechos reservados
+            <a href= "https://www.google.com">Visita el Sitio Web de Google</a>
+
+        </footer>
+       
     </body>
 </html>
